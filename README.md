@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# GitHub Finder  🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação **React** com **TypeScript** criada com **Vite** e estilizada usando **Sass**. Ele permite aos usuários pesquisar perfis do GitHub e visualizar informações sobre esses perfis, incluindo seus repositórios e projetos.
 
-Currently, two official plugins are available:
+## Funcionalidades  🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pesquisa de Perfil**: Digite o nome de usuário do GitHub na barra de pesquisa e obtenha informações detalhadas sobre o perfil desse usuário.
+- **Listagem de Repositórios**: Veja os repositórios públicos associados ao perfil do usuário.
+- **Detalhes do Repositório**: Clique em um repositório para ver mais detalhes, como descrição, linguagem, estrelas e forks.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática e outras funcionalidades.
+- **GitHub API**: Utilizada para buscar informações de perfis e repositórios.
+- **Sass**: Pré-processador CSS que facilita a escrita e organização dos estilos.
